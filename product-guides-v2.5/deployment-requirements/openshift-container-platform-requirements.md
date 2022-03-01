@@ -1,0 +1,2 @@
+# Openshift Container Platform Requirements
+
