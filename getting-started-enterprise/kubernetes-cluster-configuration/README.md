@@ -7,3 +7,11 @@ A minimal **production configuration requires at least five (5) worker nodes** (
 For non-production clusters a minimum of 3 worker nodes for use as PoC or test environment, but such configurations cannot be converted later to production use and are not resilient to two failures.
 
 It is recommended that all nodes will have the same media configurations and homogeneous as possible.&#x20;
+
+{% content-ref url="supported-platforms.md" %}
+[supported-platforms.md](supported-platforms.md)
+{% endcontent-ref %}
+
+{% content-ref url="kubernetes-support.md" %}
+[kubernetes-support.md](kubernetes-support.md)
+{% endcontent-ref %}

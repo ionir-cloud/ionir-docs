@@ -1,6 +1,4 @@
-# Copy of Additional Node Configurations
-
-###
+# Additional Worker Node Configurations
 
 ### Additional Modules Required
 
@@ -9,6 +7,12 @@ The following configurations must be prepared prior to installing Ionir:
 * Load NVME over TCP module
 * Load VFIO - "Virtual Function I/O"
 * Configure HugePages
+
+### Using Machine Configuration Operator (MCO) on OCP
+
+All configurations YAML files can be found under ionir GitHub repository [here](https://github.com/ionir-cloud/deployments/tree/main/OpenShift/configuration/machine-configuration-files)
+
+### Manual Configuration
 
 #### NVME/TCP - Run the following commands to add the module:
 

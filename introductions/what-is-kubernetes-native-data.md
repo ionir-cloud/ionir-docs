@@ -56,20 +56,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="../getting-started/prerequisites/" %}
-[prerequisites](../getting-started/prerequisites/)
+{% content-ref url="../getting-started-enterprise/prerequisites/" %}
+[prerequisites](../getting-started-enterprise/prerequisites/)
 {% endcontent-ref %}
 
-{% content-ref url="../getting-started/deployment-guides/" %}
-[deployment-guides](../getting-started/deployment-guides/)
+{% content-ref url="../getting-started-enterprise/deployment-guides/" %}
+[deployment-guides](../getting-started-enterprise/deployment-guides/)
 {% endcontent-ref %}
 
-{% content-ref url="../getting-started/deployment-guides/deploy-on-bare-metal/" %}
-[deploy-on-bare-metal](../getting-started/deployment-guides/deploy-on-bare-metal/)
+{% content-ref url="../getting-started-enterprise/deployment-guides/deploy-on-bare-metal/" %}
+[deploy-on-bare-metal](../getting-started-enterprise/deployment-guides/deploy-on-bare-metal/)
 {% endcontent-ref %}
 
-{% content-ref url="../getting-started/deployment-guides/deploy-on-ocp.md" %}
-[deploy-on-ocp.md](../getting-started/deployment-guides/deploy-on-ocp.md)
+{% content-ref url="../getting-started-enterprise/deployment-guides/ionir-on-ocp.md" %}
+[ionir-on-ocp.md](../getting-started-enterprise/deployment-guides/ionir-on-ocp.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

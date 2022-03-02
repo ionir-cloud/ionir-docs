@@ -24,7 +24,7 @@ Ionir requires some extra modules that are might not be part of the upstream ker
 sudo apt install linux-modules-extra-$(uname -r)
 ```
 
-### **Physical Capacity Requirements**
+### **Total Physical Capacity Requirements**
 
 The following minimum physical capacity is required for a Ionir installation. The minimum cluster size is determined by the minimum number of Ionir nodes that have media **installed locally.** This is the sum of capacities of all NVMe devices that can be used by Ionir across all nodes of the K8s cluster.
 

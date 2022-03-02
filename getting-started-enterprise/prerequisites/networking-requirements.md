@@ -1,5 +1,13 @@
 # Networking Requirements
 
+### Load-Balancer Services
+
+An external load balancer (such as [MetalLB](https://metallb.universe.tf)) is required on the Kubernetes cluster to provide an externally accessible IP address for the Ionir platform in general and mobility between cluster specifically. This Load-balancer resource should be configurable at the Kubernetes level using standard services.
+
+{% hint style="info" %}
+Example MetalLB deployment YAML can be found on ionir GitHub repository [here](https://github.com/ionir-cloud/ionir-labs/).
+{% endhint %}
+
 ### Networking Requirements
 
 Ionir creates a high performance dedicated virtual network for storage traffic, and hence requires that the underlying network infrastructure provide sufficient performance:
