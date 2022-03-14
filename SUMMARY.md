@@ -44,7 +44,13 @@
 
 ## Administrating Ionir
 
-* [Keyboard Shortcuts](administrating-ionir/keyboard-shortcuts.md)
+* [Introduction](administrating-ionir/introduction.md)
+* [Security and Authentication](administrating-ionir/security-and-authentication.md)
+* [Working with Ionir Cloud Manager](administrating-ionir/working-with-ionir-cloud-manager.md)
+* [Ionir Cloud Manager Operations](administrating-ionir/ionir-cloud-manager-operations.md)
+* [StorageClass and HistoryPolicies](administrating-ionir/storageclass-and-historypolicies.md)
+* [Failure Handling](administrating-ionir/failure-handling.md)
+* [Contact Support](administrating-ionir/contact-support.md)
 
 ## Use Cases
 
