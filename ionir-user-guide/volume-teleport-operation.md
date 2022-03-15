@@ -16,7 +16,7 @@ For information about how to connect clusters, refer to the _“Connecting Clust
 2. The data teleport operation can be initiated from the context menu next to the volume,\
    select **Teleport.**
 3. Select the destination **Cluster.**
-4. Select the destination **History Policy**. For information about History Policies, refer to the [History Policy](../administrating-ionir/storageclass-and-historypolicies.md#creating-a-history-policy) section.
+4. Select the destination **History Policy**. For information about History Policies, refer to the [History Policy](../ionir-admin-guide/storageclass-and-historypolicies.md#creating-a-history-policy) section.
 5. Provide the destination **Volume name** (PVC) – The default name is the same as the source PVC. \
    If a PVC with the same name in the selected namespace already exists in the destination cluster, the operation will fail.
 6. &#x20;Select the destination **Namespace** from the dropdown list.

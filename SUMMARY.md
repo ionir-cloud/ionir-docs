@@ -1,6 +1,6 @@
 # Table of contents
 
-## Introductions
+## 👋 Introductions
 
 * [Kubernetes Meets Data](README.md)
 * [What is Kubernetes Native Data?](introductions/what-is-kubernetes-native-data.md)
@@ -8,7 +8,7 @@
 * [Ionir Kubernetes Native Data](introductions/ionir-kubernetes-native-data.md)
 * [Ionir Fundamentals and Concepts](introductions/ionir-fundamentals-and-concepts.md)
 
-## Getting Started - Freemium
+## 🏃 Getting Started - Freemium
 
 * [Signup and Deployment Overview](getting-started-freemium/signup-and-deployment-overview.md)
 * [Prerequisites](getting-started-freemium/prerequisites/README.md)
@@ -18,7 +18,7 @@
 * [Deployment Guides](getting-started-freemium/deployment-guides/README.md)
   * [Ionir with OCP on AWS](getting-started-freemium/deployment-guides/ionir-with-ocp-on-aws.md)
 
-## Getting Started - Enterprise
+## 🏃♂ Getting Started - Enterprise
 
 * [Kubernetes Cluster Configuration](getting-started-enterprise/kubernetes-cluster-configuration/README.md)
   * [Supported Platforms](getting-started-enterprise/kubernetes-cluster-configuration/supported-platforms.md)
@@ -45,26 +45,26 @@
   * [Ionir on AWS](getting-started-enterprise/deployment-guides/ionir-on-aws.md)
   * [Ionir on GCP](getting-started-enterprise/deployment-guides/ionir-on-gcp.md)
 
-## Using Ionir
+## 😎 Ionir User Guide
 
-* [Introduction](using-ionir/copy-of-keyboard-shortcuts.md)
-* [Ionir Cloud Manager Overview](using-ionir/ionir-cloud-manager-overview.md)
-* [Volume Teleport Operation](using-ionir/volume-teleport-operation.md)
-* [Volume Clone (to Time) Operations](using-ionir/volume-clone-to-time-operations.md)
-* [History Policy](using-ionir/history-policy.md)
-* [Statistics Screen](using-ionir/statistics-screen.md)
-* [Events and Health](using-ionir/events-and-health.md)
-* [Support](using-ionir/support.md)
+* [Introduction](ionir-user-guide/copy-of-keyboard-shortcuts.md)
+* [Ionir Cloud Manager Overview](ionir-user-guide/ionir-cloud-manager-overview.md)
+* [Volume Teleport Operation](ionir-user-guide/volume-teleport-operation.md)
+* [Volume Clone (to Time) Operations](ionir-user-guide/volume-clone-to-time-operations.md)
+* [History Policy](ionir-user-guide/history-policy.md)
+* [Statistics Screen](ionir-user-guide/statistics-screen.md)
+* [Events and Health](ionir-user-guide/events-and-health.md)
+* [Support](ionir-user-guide/support.md)
 
-## Administrating Ionir
+## 🛠 Ionir Admin Guide
 
-* [Introduction](administrating-ionir/introduction.md)
-* [Security and Authentication](administrating-ionir/security-and-authentication.md)
-* [Working with Ionir Cloud Manager](administrating-ionir/working-with-ionir-cloud-manager.md)
-* [Ionir Cloud Manager Operations](administrating-ionir/ionir-cloud-manager-operations.md)
-* [StorageClass and HistoryPolicy](administrating-ionir/storageclass-and-historypolicies.md)
-* [Failure Handling](administrating-ionir/failure-handling.md)
-* [Contact Support](administrating-ionir/contact-support.md)
+* [Introduction](ionir-admin-guide/introduction.md)
+* [Security and Authentication](ionir-admin-guide/security-and-authentication.md)
+* [Working with Ionir Cloud Manager](ionir-admin-guide/working-with-ionir-cloud-manager.md)
+* [Ionir Cloud Manager Operations](ionir-admin-guide/ionir-cloud-manager-operations.md)
+* [StorageClass and HistoryPolicy](ionir-admin-guide/storageclass-and-historypolicies.md)
+* [Failure Handling](ionir-admin-guide/failure-handling.md)
+* [Contact Support](ionir-admin-guide/contact-support.md)
 
 ## Use Cases
 
