@@ -47,7 +47,14 @@
 
 ## Using Ionir
 
-* [Copy of Keyboard Shortcuts](using-ionir/copy-of-keyboard-shortcuts.md)
+* [Introduction](using-ionir/copy-of-keyboard-shortcuts.md)
+* [Ionir Cloud Manager Overview](using-ionir/ionir-cloud-manager-overview.md)
+* [Volume Teleport Operation](using-ionir/volume-teleport-operation.md)
+* [Volume Clone (to Time) Operations](using-ionir/volume-clone-to-time-operations.md)
+* [History Policy](using-ionir/history-policy.md)
+* [Statistics Screen](using-ionir/statistics-screen.md)
+* [Events and Health](using-ionir/events-and-health.md)
+* [Support](using-ionir/support.md)
 
 ## Administrating Ionir
 
