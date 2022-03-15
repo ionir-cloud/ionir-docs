@@ -10,7 +10,7 @@ Currently only Chrome v90+ is supported as a browser
 
 #### Finding the Ionir Cloud Manager URL
 
-In order to connect to the Ionir Cloud Manager, the service address of the Ionir Cloud Manager is required.  To find the IP/URL of Ionir Cloud Manager - Go to the Kubernetes CLI and run:
+In order to connect to the Ionir Cloud Manager, the service address of the Ionir Cloud Manager is required. To find the IP/URL of Ionir Cloud Manager - Go to the Kubernetes CLI and run:
 
 `kubectl -n ionir get svc | grep ionir-nginx-ingress-controller`
 
@@ -22,7 +22,7 @@ Ionir uses [OpenID](https://openid.net/connect/) for user identification and aut
 
 User credentials are saved as a cookie on the browser and are valid for 12 hours. Users will be prompted to login once the cookie expires.
 
-![](../.gitbook/assets/Login.png)
+![](<../.gitbook/assets/Login (1).png>)
 
 ### Ionir Cloud Manager Main Dashboard
 
@@ -49,4 +49,3 @@ The health indicator has three (3) colors:
 * <mark style="color:red;">**Red**</mark> – Error/Critical. Ionir has an error or the cluster is in a critical state. An immediate user action is required
 
 Refer to Cluster Health section to view the full list of issues that may cause the system to become unhealthy Hovering over a Yellow or Red indicator displays the error or errors that are causing the issue.
-

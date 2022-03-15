@@ -4,7 +4,7 @@ Ionir Cloud Manager enables the user to view and perform operations at the cloud
 
 ### Settings
 
-The Manage Clusters **** window is used to view all clusters in the Ionir Cloud Manager. Click the settings icon (![](../.gitbook/assets/cog.png)) on the top right to open the “Manage Cluster” window.
+The Manage Clusters \*\*\*\* window is used to view all clusters in the Ionir Cloud Manager. Click the settings icon (![](<../.gitbook/assets/cog (1).png>)) on the top right to open the “Manage Cluster” window.
 
 ![](../.gitbook/assets/settings.png)
 
@@ -12,7 +12,7 @@ The Manage Clusters **** window is used to view all clusters in the Ionir Cloud 
 * **Region** - Cluster region. This information is automatically taken from the cluster definitions (when available).
 * **Color** - Cluster display color. You can modify the cluster color by clicking on the color and selecting a new color.
 * **Health** - Health status of the cluster.
-* **Diagnostics** - **** Download cluster diagnostics.
+* **Diagnostics** - \*\*\*\* Download cluster diagnostics.
 * **Address** - Used to connect clusters into a single Ionir Cloud Manager.
 * **ID** - Cluster ID.
 * **Connectivity** - Check connectivity between the source and destination cluster.
@@ -42,9 +42,7 @@ Each Cloud has a database that holds some configuration information about all th
 
 #### Identifying the Cloud Configuration Leader
 
-To identify the cluster that is the Cloud Configuration Leader of the cloud, open the Ionir Cloud Manager and click the settings icon (![](../.gitbook/assets/cog.png) __ ) to open the Manage Clusters Window. The name of the Cloud Configuration Leader and its IP are displayed above the Manage Clusters table.
-
-
+To identify the cluster that is the Cloud Configuration Leader of the cloud, open the Ionir Cloud Manager and click the settings icon (![](<../.gitbook/assets/cog (1).png>) \_\_ ) to open the Manage Clusters Window. The name of the Cloud Configuration Leader and its IP are displayed above the Manage Clusters table.
 
 ![](../.gitbook/assets/leader.png)
 
@@ -69,7 +67,7 @@ The Set Master dialog opens:
 1. Enter the **Master IP**.
 2. Click **ADD**.
 
-![](../.gitbook/assets/master.png)
+![](<../.gitbook/assets/master (1).png>)
 
 Once the connection operation completes, the cluster is added to the selected Ionir Cloud and a success message is displayed.
 
@@ -87,10 +85,6 @@ To disconnect a cluster:
 2. Click ![](../.gitbook/assets/disc.png) next to the cluster you want to disconnect.
 3. A confirmation window opens. Click **YES** to confirm the disconnect operation.
 
-Once the connection operation completes, the cluster is added to the selected Ionir Cloud and a success message is displayed.\
+Once the connection operation completes, the cluster is added to the selected Ionir Cloud and a success message is displayed.\\
 
-
-![](../.gitbook/assets/delete.png)
-
-
-
+![](<../.gitbook/assets/delete (1).png>)

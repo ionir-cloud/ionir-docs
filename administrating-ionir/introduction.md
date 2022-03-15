@@ -24,7 +24,7 @@ If a node fails or a pod (application) is rescheduled to another node, the pitch
 2. All pods are rescheduled to run on other nodes.
 3. Ionir Pitcher takes responsibility on the target node
 
-![](../.gitbook/assets/nodes.png)
+![](<../.gitbook/assets/nodes (1).png>)
 
 ### Data Resiliency
 
@@ -33,4 +33,3 @@ Ionir data resiliency uses 3-way mirroring which provides protection against two
 {% hint style="info" %}
 Two media devices failure on different nodes is supported only in clusters with at least five (5) worker nodes with at least one (1) NVMe media in each. This is due to ETCD consensus requirements.
 {% endhint %}
-
