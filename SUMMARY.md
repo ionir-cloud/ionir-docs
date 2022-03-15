@@ -30,8 +30,15 @@
   * [Worker Nodes](getting-started-enterprise/prerequisites/worker-nodes/README.md)
     * [Additional Worker Node Configurations](getting-started-enterprise/prerequisites/worker-nodes/additional-worker-node-configurations.md)
   * [Networking Requirements](getting-started-enterprise/prerequisites/networking-requirements.md)
+  * [Ionir Requirements on OCP](getting-started-enterprise/prerequisites/ionir-requirements-on-ocp.md)
 * [Ionir Compatability Tool](getting-started-enterprise/ionir-compatability-tool.md)
 * [Deployment Guides](getting-started-enterprise/deployment-guides/README.md)
+  * [Installing Ionir](getting-started-enterprise/deployment-guides/installing-ionir/README.md)
+    * [Deployment Checklist](getting-started-enterprise/deployment-guides/installing-ionir/deployment-checklist/README.md)
+      * [Environment Settings](getting-started-enterprise/deployment-guides/installing-ionir/deployment-checklist/environment-settings.md)
+    * [Installing Ionir](getting-started-enterprise/deployment-guides/installing-ionir/installing-ionir.md)
+    * [Ionir Users and Authentication](getting-started-enterprise/deployment-guides/installing-ionir/ionir-users-and-authentication.md)
+    * [Observability and Monitoring](getting-started-enterprise/deployment-guides/installing-ionir/observability-and-monitoring.md)
   * [Deploy on Bare Metal](getting-started-enterprise/deployment-guides/deploy-on-bare-metal/README.md)
     * [Load Balancing Option](getting-started-enterprise/deployment-guides/deploy-on-bare-metal/load-balancing-option.md)
   * [Ionir on OCP](getting-started-enterprise/deployment-guides/ionir-on-ocp.md)
@@ -48,7 +55,7 @@
 * [Security and Authentication](administrating-ionir/security-and-authentication.md)
 * [Working with Ionir Cloud Manager](administrating-ionir/working-with-ionir-cloud-manager.md)
 * [Ionir Cloud Manager Operations](administrating-ionir/ionir-cloud-manager-operations.md)
-* [StorageClass and HistoryPolicies](administrating-ionir/storageclass-and-historypolicies.md)
+* [StorageClass and HistoryPolicy](administrating-ionir/storageclass-and-historypolicies.md)
 * [Failure Handling](administrating-ionir/failure-handling.md)
 * [Contact Support](administrating-ionir/contact-support.md)
 
@@ -61,10 +68,7 @@
 * [Hybrid and Multi-Cloud](use-cases/hybrid-and-multi-cloud/README.md)
   * [Application Bursting](use-cases/hybrid-and-multi-cloud/application-bursting.md)
 
-## Product Guides v2.5
+## Release Notes
 
-* [Deployment Requirements](product-guides-v2.5/deployment-requirements/README.md)
-  * [Openshift Container Platform Requirements](product-guides-v2.5/deployment-requirements/openshift-container-platform-requirements.md)
-* [Deployment Guide](product-guides-v2.5/deployment-guide.md)
-* [Administrator Guide](product-guides-v2.5/administrator-guide.md)
-* [User Guide](product-guides-v2.5/user-guide.md)
+* [Release v2.6](release-notes/user-guide.md)
+* [Release v2.5](release-notes/deployment-guide.md)

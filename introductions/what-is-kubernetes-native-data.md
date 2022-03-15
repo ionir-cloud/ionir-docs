@@ -36,16 +36,16 @@ Here are a couple of examples of succinct overviews from products with really gr
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="../product-guides-v2.5/deployment-requirements/" %}
-[deployment-requirements](../product-guides-v2.5/deployment-requirements/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="../product-guides-v2.5/deployment-guide.md" %}
-[deployment-guide.md](../product-guides-v2.5/deployment-guide.md)
+{% content-ref url="../release-notes/deployment-guide.md" %}
+[deployment-guide.md](../release-notes/deployment-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="../product-guides-v2.5/administrator-guide.md" %}
-[administrator-guide.md](../product-guides-v2.5/administrator-guide.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}
