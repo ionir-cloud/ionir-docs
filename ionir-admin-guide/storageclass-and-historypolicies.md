@@ -1,4 +1,4 @@
-# StorageClass and HistoryPolicies
+# StorageClass and HistoryPolicy
 
 ### Creating a Storage Class
 
@@ -57,12 +57,15 @@ The History Policy is defined when the volume is created from the Storageclass. 
 The following is an example of building a History Policy resource:
 
 ```
-apiVersion: crd.ionir.com/v1
+apiVersion: volume.ionir.com/v1
 kind: HistoryPolicy
 metadata:
-  name: 6-hour-history
+  name: 1-hour-history
   namespace: ionir
 spec:
-  policyName: 6-hour-history
-  secondsGranularityRetention: 6h
+  daysGranularityRetention: ""
+  hoursGranularityRetention: ""
+  minutesGranularityRetention: ""
+  monthsGranularityRetention: ""
+  secondsGranularityRetention: 1h
 ```
