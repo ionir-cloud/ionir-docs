@@ -5,7 +5,7 @@ Ionir Data system requires the following to be fully performant and production-r
 * 8 vCPUs (Cores)
 * 32GB of RAM
 * local NVMe Drives
-* Single Network Interfaces&#x20;
+* Single Network Interfaces
 * Boot Disk of at least 50GB
 
 {% hint style="info" %}
@@ -14,21 +14,14 @@ These requirements are for **Ionir Platform only**. Allow additional resources c
 This should not be the specification of the entire cluster.
 {% endhint %}
 
-### Supported Worker Operating System&#x20;
+### Supported Worker Operating System
 
 Supported OS images as part of OCP compatibility per-version:
 
 * Red Hat Enterprise Linux CoreOS (RHCOS)
-
-Ionir requires some extra modules that are might not be part of the upstream kernel. To install these modules please run the following command:&#x20;
-
-```
-sudo apt install linux-modules-extra-$(uname -r)
-```
 
 ### **Total Physical Capacity Requirements**
 
 The following minimum physical capacity is required for a Ionir installation. The minimum cluster size is determined by the minimum number of Ionir nodes that have media **installed locally.** This is the sum of capacities of all NVMe devices that can be used by Ionir across all nodes of the K8s cluster.
 
 * For a 3-node deployment cluster total of 3.6 TB
-
