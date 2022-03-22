@@ -61,7 +61,7 @@
 * [Introduction](ionir-admin-guide/introduction.md)
 * [Security and Authentication](ionir-admin-guide/security-and-authentication.md)
 * [Working with Ionir Cloud Manager](ionir-admin-guide/working-with-ionir-cloud-manager.md)
-* [Ionir Cloud Manager Operations](ionir-admin-guide/ionir-cloud-manager-operations.md)
+* [Manage Ionir Clusters](ionir-admin-guide/ionir-cloud-manager-operations.md)
 * [StorageClass and HistoryPolicy](ionir-admin-guide/storageclass-and-historypolicies.md)
 * [Failure Handling](ionir-admin-guide/failure-handling.md)
 * [Contact Support](ionir-admin-guide/contact-support.md)

@@ -8,29 +8,34 @@ To install Ionir:
 
 1. Open a Linux console and go to the directory with the installation files.
 2.  Make sure **KUBECONFIG** is pointing to the right Kubernetes cluster.\
-    The installation script expects to get the following parameters:
+    The installation script expects to get the following parameters: \[Optional]
 
-    **`-a`**` ``: Install`
+    ```
+    -a 'install', 'uninstall', 'stop', 'start' or 'upgrade' Ionir.
+    -k Ionir license key 
+    -l accept In order to be able to use the installer, Ionir EULA must be accepted by adding '-l accept' to the command line 
+    -f Set ionir.sh configuration file. Note: Ionir scaled configuration requires at least 5 worker nodes. 
 
-    **`-r`**` ``: [optional] image registry to pull the images from (default:`` `**`quay.io/ionir`**`)`
-
-    **`-t`**` ``: image tag name`
-
-    **`-u`**` ``: username for the image registry`
-
-    **`-p`**` ``: image registry password or token`
-
-    **`-f`**` ``<config_file>: Set the ionir.sh configuration file.`
+    [-r ] Image registry, default is quay.io/ionir 
+    [-t ] Image tag, default is latest
+    [-u ] Image registry username (required when working with a local registry) 
+    [-p ] Image registry password (required when working with a local registry) 
+    [-c ] The cert host path for self-signed local registry (for example /etc/docker/certs.d) 
+    [-o] Run preflight only for Ionir 'stop', 'start' or 'upgrade' actions 
+    [-e ""] Set ionir.sh extra options 
+    [-v] Set to run in non-interactive mode 
+    [-q] Set -q for quiet mode. By default, the installer logs are directed to the console
+    ```
 3. Run the **ionir.sh** script to install Ionir:\
-   `./ionir.sh -a install -r <registry> -t <tag_name> -u <username> -p <password> -f <config_file>`
+   `./ionir.sh -a install -r <registry> -t <tag_name> -f <config_file>`
 
-Here is an example where Ionir is installed with ~~~~ username ~~~~ “**ionir+test**” and password “**test**” and where the number of nodes is less than 5. In this example, the default registry (**quay.io/ionir**) is used:
+Here is an example where Ionir is installed with aand where the number of nodes is less than 5. In this example, the default registry (**quay.io/ionir**) is used:
 
-`./ionir.sh -a install -u ionir+test -p test -f ionir.min_cluster.conf`
+`./ionir.sh -a install -f ionir.min_cluster.conf -l accept -k <license key>`
 
 Below is an example that specifies the registry location:
 
-`./ionir.sh -a install -r 172.17.1.1 -u ionir+test -p test -f ionir.min_cluster.conf`
+`./ionir.sh -a install -r 172.17.1.1 -f ionir.min_cluster.conf -l accept -k <license key>`
 
 Ionir installer pulls the images from the repositories and deploys Ionir on the cluster.
 
@@ -52,7 +57,7 @@ Add labels to the designated nodes for ionir by using the following command:
 
 Add the following flag “--hetero-install” to the installation command, for example:
 
-`./ionir.sh -a install -r -t <tag_name> -u -p -f <config_file> --hetero-install`
+`./ionir.sh -a install -f <config_file> --hetero-install -l accept -k <license key>`
 
 {% hint style="info" %}
 Role-based deployment is controlling only ionir system environment (and namespace), ionir-installer does not share this option and can run anywhere.
@@ -89,7 +94,7 @@ To uninstall Ionir:
 1. Open a Linux console and go to the directory with the installation files.
 2. Make sure **KUBECONFIG** is pointing to the right Kubernetes cluster.
 3. Run the following command:\
-   `ionir.sh -a uninstall -u`` `_`<user>`_` ``-p`` `_`<password>`_
+   `ionir.sh -a uninstall -f <config file>`_`-k <license key>`_&#x20;
 
 The uninstall log is displayed in the shell or you can view the logs of the **Ionir-installer** pod that runs under the **Ionir-installer** namespace by running the following command:
 
