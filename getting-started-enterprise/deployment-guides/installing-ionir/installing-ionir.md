@@ -27,7 +27,7 @@ To install Ionir:
     [-q] Set -q for quiet mode. By default, the installer logs are directed to the console
     ```
 3. Run the **ionir.sh** script to install Ionir:\
-   `./ionir.sh -a install -r <registry> -t <tag_name> -f <config_file>`
+   `./ionir.sh -a install -r <registry> -t <tag_name> -f <config_file>  -l accept -k <license key>`
 
 Here is an example where Ionir is installed with aand where the number of nodes is less than 5. In this example, the default registry (**quay.io/ionir**) is used:
 
