@@ -26,7 +26,7 @@ Keycloak default administrator credentials are:
 
 To login to Ionir Cloud Dashboard retrieve the nginx-ingress address with:
 
-`kubectl get services -n ionir | grep “ionir-nginx-ingress-controller”`&#x20;
+`kubectl -n ionir get svc ionir-nginx-ingress-controller -o json | jq '.status.loadBalancer.ingress[].hostname'`
 
 Ionir Cloud Manager default user credentials are set to:
 
