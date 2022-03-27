@@ -14,8 +14,9 @@ Ionir creates a high performance dedicated virtual network for storage traffic, 
 
 * For production environments network speed must be 25 Gb or higher. 10 Gb may be used in non-production environments.
 * SR-IOV must be enabled on the NIC as best practice. Optionally use multiple physical adapters if applicable.
-* Full IP connectivity is required between all nodes **in the cluster**.
-* Full IP connectivity is required between all nodes **between clusters for mobility.**
+* Full IP connectivity is required between all nodes **within the cluster**.
+* External Access to the Ionir Dashboard UI requires ports - 80/443.
+* IP connectivity required between all nodes **between clusters for mobility -** 1601/2379.
 
 ### Datapath Network Configuration
 
@@ -32,7 +33,7 @@ The following configuration is required for each worker node in the cluster:
 * Set a second **static IP** for the node on the interface for the data path network (physical or virtual function). This datapath IP must be part of the datapath subnet.
 * MTU should be set to 9000 or higher (Jumbo frames).
 * In addition, you must configure Kubernetes CNI (for example Calico) to use the public network NIC only (not the dedicated mentioned) for general cluster communications. Further examples are listed here:[ https://docs.projectcalico.org/networking/ip-autodetection](https://docs.projectcalico.org/networking/ip-autodetection)
-* &#x20;Kubernetes label must be set that states the datapath IP of the node must be added to **each worker node**. To set the label run the following command for each worker node: \
+* Kubernetes label must be set that states the datapath IP of the node must be added to **each worker node**. To set the label run the following command for each worker node:\
   `kubectl label node <workerNodeName> datapath_ni=<NodeDatapathIP>`
 
 ### Access to Public Registries
@@ -52,8 +53,6 @@ Additional public repositories are required as follows:
 
 {% hint style="info" %}
 A private registry is expected to be found and configured in the customer environment and Docker runtime is required proxy endpoint to successfully run import/export script
-
-
 {% endhint %}
 
 On an internet connected endpoint run the following script: `images_pull_push.sh`

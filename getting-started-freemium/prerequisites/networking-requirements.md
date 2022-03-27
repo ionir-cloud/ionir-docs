@@ -9,8 +9,9 @@ Ionir requires two (2) publicly facing IP addresses as part of the LoadBalancer 
 Ionir creates a high performance dedicated virtual network for storage traffic, and hence requires that the underlying network infrastructure provide sufficient performance:
 
 * For production environments network speed must be 25 Gb or higher. 10 Gb may be used in non-production environments.
-* Full IP connectivity is required between all nodes **in the cluster**.
-* Full IP connectivity is required between all nodes **between clusters for mobility.**
+* Full IP connectivity is required between all nodes **within the cluster**.
+* External Access to the Ionir Dashboard UI requires ports - 80/443.
+* IP connectivity required between all nodes **between clusters for mobility -** 1601/2379.
 
 ### Access to Public Registries
 
@@ -25,7 +26,7 @@ Additional public repositories are required as follows:
 * Docker.io
 * k8s.gcr.io
 
-### **Air-Gapped Environments**&#x20;
+### **Air-Gapped Environments**
 
 {% hint style="info" %}
 A private registry is expected to be found and configured in the customer environment and Docker runtime is required proxy endpoint to successfully run import/export script
