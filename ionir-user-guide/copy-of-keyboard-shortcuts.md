@@ -6,8 +6,10 @@ In addition to providing resilient, high-performance storage, Ionir also provide
 
 ### Deployments vs Statefulsets
 
-**Deployments** are usually used for stateless applications. However, you can save the state of deployment by attaching a Persistent Volume to it and making it stateful, but all the pods of a deployment will be sharing the same Volume and data across all of them will be same.
+**Deployments** are usually used for stateless applications. However, you can save the state of deployment by attaching a Persistent Volume to it and making it stateful, but all the pods of a deployment will be sharing the same Volume and data across all of them will be the same.
 
-**StatefulSet** is also a Controller but unlike Deployments, it doesn’t create ReplicaSet rather itself creates the Pod with a unique naming convention. e.g. If you create a StatefulSet with name counter, it will create a pod with name counter-0, and for multiple replicas of a statefulset, their names will increment like counter-0, counter-1, counter-2, etc
+**StatefulSet** is also a Controller but unlike Deployments, it doesn’t create ReplicaSet rather it creates the Pod with a unique naming convention. e.g. If you create a StatefulSet with a name counter, it will create a pod with the name counter-0, and for multiple replicas of a statefulset, their names will increment like counter-0, counter-1, counter-2, etc
 
-Every replica of a stateful set will have its own state, and each of the pods will be creating its own PVC (Persistent Volume Claim). So a statefulset with 3 replicas will create 3 pods, each having its own Volume, so total 3 PVCs. It is a best practice to use statefulsets when persistency is required,
+Every replica of a stateful set will have its own state, and each of the pods will be creating its own PVC (Persistent Volume Claim). So a statefulset with 3 replicas will create 3 pods, each having its own Volume, so total of 3 PVCs. It is a best practice to use statefulsets when persistency is required.
+
+Ionir creates volumes corresponding to PVCs and supplies a correspondent PV to it. Raw volume supported size is 1 PiB, EXT4/XFS volume size is 16TB.&#x20;
