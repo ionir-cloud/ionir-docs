@@ -22,3 +22,6 @@ The History Policy of the volume is changed.
 
 ![](../.gitbook/assets/hp.png)
 
+{% hint style="info" %}
+The maximum time supported for History Retention is 24hrs. Setting a bigger value will not generate an error.
+{% endhint %}

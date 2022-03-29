@@ -63,9 +63,11 @@ metadata:
   name: 1-hour-history
   namespace: ionir
 spec:
-  daysGranularityRetention: ""
   hoursGranularityRetention: ""
   minutesGranularityRetention: ""
-  monthsGranularityRetention: ""
   secondsGranularityRetention: 1h
 ```
+
+{% hint style="info" %}
+The maximum time supported for History Retention is 24hrs. Setting a bigger value will not generate an error.
+{% endhint %}
