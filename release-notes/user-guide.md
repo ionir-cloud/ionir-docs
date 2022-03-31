@@ -13,7 +13,7 @@
 * **Issue**: Volumes Status reports "Available" during teleport even during network disconnect.\
   **Details:** While Teleporting a volume between clusters a **live** network connection is required in order to present data from source to target, on-demand or background sync. Currently, a network disconnection is not reflected in volumes status, although new data can't be served.\
   **Workaround:** No Workaround.
-* **Issue**: Kubernetes clusters’ upgrades or node draining/cordon take significantly longer.\
+* **Issue**: Kubernetes clusters’ upgrades or node draining/cordon take significantly longer. This includes Pod Disruption Budgets warnings on OCP platforms.\
   **Details:** This happens since once a node is down Ionir rebuilds the resiliency of the data in case of node failure.\
   **Workaround:** Plan longer upgrade cycles and nodes draining time
 * **Issue**: Prometheus might display non-consecutive time caused by node crashing.\
